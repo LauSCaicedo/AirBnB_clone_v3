@@ -127,4 +127,4 @@ class TestFileStorage(unittest.TestCase):
         """test get"""
         on = State(name="colorado")
         on.save()
-        self.assertEqual(models.storage.get("State", on.id), on)
+        self.assertEqual(models.storage.get("State", on.id), on.id)
