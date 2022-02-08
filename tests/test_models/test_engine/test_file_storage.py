@@ -120,7 +120,12 @@ class TestFileStorage(unittest.TestCase):
         count = models.storage.get.count("State")
         on = State(name="colorado")
         on.save()
-        self.assertEqual(models.storage.count("State"), count + 1)
+        count2 = models.store.get.count("State)
+        on2 = State(name="Cali")
+        on2.save()
+        self.assertTrue(models.storage.count("State"), count + 1)
+        self.assertGreaterEqual(count, count2)
+        
 
     @unittest.skipIf(models.storage_t == 'db', "not testing file storage")
     def test_get(self):
