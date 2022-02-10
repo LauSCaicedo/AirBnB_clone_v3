@@ -160,6 +160,7 @@ Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://tw
 Second part of Airbnb: Joann Vuong
 
 --------------------------------------------------------------------------
+# Collaborators
 
 Kenia Lopez - [Github](https://github.com/kenialo19) / [Twitter](https://twitter.com/KeniaLo36981336)
 Laura Caicedo - [Github](https://github.com/LauSCaicedo) / [Twitter](https://twitter.com/LauSCaicedo)
