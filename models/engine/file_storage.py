@@ -86,6 +86,7 @@ class FileStorage:
     def count(self, cls=None):
         """Returns the number of objects in
             storage matching the given class."""
+<<<<<<< HEAD
         state = self.all(cls).keys()
         return len(state)
 =======
@@ -118,3 +119,7 @@ class FileStorage:
 
         return count
 >>>>>>> ca3c23b7c7c40809fa756105a35f50791fa28820
+=======
+        h = self.all(cls).keys()
+        return len(h)
+>>>>>>> e08b0bb2eaf4beafacfd923feb22ea768975856a
